@@ -1,0 +1,68 @@
+# ==========================================
+# macOS System Files
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Files that might be created on a Mac repo folders
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotbackup
+
+# ==========================================
+# Java Compiled Source
+# ==========================================
+*.class
+*.log
+*.ctxt
+*.mtj.tmp/
+hs_err_pid*
+replay_pid*
+
+# ==========================================
+# Build Tools (Maven & Gradle)
+# ==========================================
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ==========================================
+# IDEs (IntelliJ IDEA & Eclipse)
+# ==========================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+factorypath
+
+# ==========================================
+# Virtual Environments & Version Management
+# ==========================================
+.java-version
